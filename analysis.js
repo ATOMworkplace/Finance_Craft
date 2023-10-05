@@ -7,8 +7,9 @@ const port = 3000;
 // Define the Alpha Vantage API URL
 const apiUrl = `https://www.alphavantage.co/query?function=TIME_SERIES_DAILY&symbol=TSLA&apikey=${apiKey}`;
 
+
 // Function to fetch and display stock data
-function fetchStockData() {
+/*function fetchStockData() {
   axios.get(apiUrl)
     .then(response => {
       const stockData = response.data;
@@ -47,4 +48,4 @@ function fetchStockData() {
 fetchStockData();
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
-});
+});*/
